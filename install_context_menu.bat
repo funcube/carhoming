@@ -6,7 +6,6 @@ rem === Installs a "Compress images to WEB" entry into the folder right-click me
 rem Writes to HKCU so no admin rights are required.
 
 set "TARGET=%~dp0compress_images.bat"
-set "TARGET=%TARGET:~0,-1%"
 
 if not exist "%TARGET%" (
     echo.
