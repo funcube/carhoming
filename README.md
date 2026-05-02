@@ -25,6 +25,12 @@ The tool will:
 4. Write outputs to `<folder>/WEB/<folder_name>_NN_web.jpg` (e.g. `mytrip_01_web.jpg`).
 5. Print a per-file before/after comparison and a total summary.
 
+### Windows drag-and-drop
+
+Place `compress_images.bat` next to `compress_images.py`, then **drag a folder
+onto `compress_images.bat`**. It calls Python for you and pauses at the end so
+you can read the results.
+
 ### Example
 
 ```
