@@ -31,6 +31,14 @@ Place `compress_images.bat` next to `compress_images.py`, then **drag a folder
 onto `compress_images.bat`**. It calls Python for you and pauses at the end so
 you can read the results.
 
+### Windows right-click menu (optional)
+
+Run `install_context_menu.bat` once. It registers a "Compress images to WEB"
+entry under `HKCU` (no admin needed), pointing at the `.bat` next to it.
+After that, right-click any folder and pick the entry.
+
+To remove it, run `uninstall_context_menu.bat`.
+
 ### Example
 
 ```
